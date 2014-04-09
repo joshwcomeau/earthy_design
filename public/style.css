@@ -1,0 +1,68 @@
+body {
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: 400;	
+}
+strong {
+	font-weight: 700;	
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	margin: 0px;
+}
+
+
+#question_label {
+	font-size: 40px;
+	color: #FFF;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.6);	
+	
+}
+#question_label h2 {
+	margin: 5px 0px 90px 0px;
+}
+.a_title {
+	font-size: 22px;
+	font-weight: 700;
+	text-shadow: 1px 1px 1px #000;
+}
+.a_subtitle {
+	font-size: 13px;
+	text-shadow: 1px 1px 0px #000;	
+	opacity: 0.5;
+}
+#question_div label {
+	color: #FFF;	
+	transition: 0.2s;
+}
+	#question_div label:hover {
+		background: rgba(255,255,255,0.1);	
+		transition: 0.2s;
+	}
+		#question_div label:hover .a_title {
+			color: #ffc600;	
+			transition: 0.2s;
+		}
+
+#submit_div input {
+	border: 0px;
+	border-radius: 0px 20px 0px 0px;
+	width: 100%;
+	height: 70px;
+	color: #FFF;
+	font-family: 'Maven Pro';
+	font-weight: 700;
+	letter-spacing: -1px;
+	font-size: 28px;
+	text-shadow: 1px 1px 2px #046887;
+background: #7bd5e5; /* Old browsers */
+background: -moz-linear-gradient(top,  #7bd5e5 0%, #3ea1b2 40%, #046887 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7bd5e5), color-stop(40%,#3ea1b2), color-stop(100%,#046887)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #7bd5e5 0%,#3ea1b2 40%,#046887 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #7bd5e5 0%,#3ea1b2 40%,#046887 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #7bd5e5 0%,#3ea1b2 40%,#046887 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #7bd5e5 0%,#3ea1b2 40%,#046887 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7bd5e5', endColorstr='#046887',GradientType=0 ); /* IE6-9 */
+
+}
